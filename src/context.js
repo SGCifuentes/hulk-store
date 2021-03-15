@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { storeProducts, detailProduct } from "./data";
+import { productosTienda, detailProduct } from "./data";
 const ProductContext = React.createContext();
 
 const ProductProvider = ({ children }) => {
@@ -16,7 +16,7 @@ const ProductProvider = ({ children }) => {
 
   const setProducts = () => {
     let templateProducts = [];
-    storeProducts.forEach((item) => {
+    productosTienda.forEach((item) => {
       const singleItem = { ...item };
       templateProducts = [...templateProducts, singleItem];
     });
