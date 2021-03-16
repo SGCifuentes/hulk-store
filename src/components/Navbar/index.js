@@ -1,19 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
-import { ButtonContainer } from "./Button";
-import logo from "../logo.svg";
+import { Nav } from "./NavbarElements";
+import { ButtonContainer } from "../Global/Button";
+import logo from "../../Logo.png";
+import Search from "../Search/index";
 
 const Navbar = () => {
   return (
-    <Nav className="navbar navbar-dark px-sm-5">
+    <Nav className="navbar justify-content-between align-content-center navbar-dark px-sm-5">
       <Link to="/">
         <img src={logo} alt="store" className="navbar-brand" />
       </Link>
 
-      <Link to="/cart" className="ml-auto">
+      <Search />
+      <Link to="/cart">
         <ButtonContainer nav>
-          <span className="mr-2">
+          <span>
             <i className="fas fa-shopping-cart " />
           </span>
         </ButtonContainer>
@@ -21,9 +23,5 @@ const Navbar = () => {
     </Nav>
   );
 };
-
-const Nav = styled.nav`
-  background-color: #001f01;
-`;
 
 export default Navbar;

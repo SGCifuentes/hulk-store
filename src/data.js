@@ -1,10 +1,9 @@
 export const productosTienda = [
   {
     id: 1,
-    title: "Batman T-Shirt Kids",
-    img: "https://i.imgur.com/FNLwyxb.png",
-    category: "marvel",
-    price: 20,
+    title: "Camiseta Logo Flash Unisex",
+    img: "img/product-1.png",
+    price: 10,
     company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -14,11 +13,10 @@ export const productosTienda = [
   },
   {
     id: 2,
-    title: "Batman Logos T-Shirt Girl",
-    img: "https://i.imgur.com/KqvROV3.png",
-    category: "marvel",
-    price: 16,
-    company: "DC Comics",
+    title: "Camiseta Logo Marvel Unisex",
+    img: "img/product-2.png",
+    price: 10,
+    company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -27,11 +25,10 @@ export const productosTienda = [
   },
   {
     id: 3,
-    title: "Na Na Na Batman T-Shirt Man",
-    img: "https://i.imgur.com/Qfnmyyt.png",
-    category: "marvel",
-    price: 8,
-    company: "DC Comics",
+    title: "Camiseta Hombre Hulk",
+    img: "img/product-3.png",
+    price: 10,
+    company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -40,10 +37,9 @@ export const productosTienda = [
   },
   {
     id: 4,
-    title: "Marvel Breakfast Bowl",
-    img: "https://i.imgur.com/62YbAhS.pngg",
-    category: "marvel",
-    price: 18,
+    title: "Body Mujer Marvel Logo",
+    img: "img/product-4.png",
+    price: 22,
     company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -53,9 +49,8 @@ export const productosTienda = [
   },
   {
     id: 5,
-    title: "Deadpool Tacos T-Shirt Unisex",
-    img: "https://i.imgur.com/DQK0627.png",
-    category: "marvel",
+    title: "Camiseta Black Widow Mujer",
+    img: "img/product-5.png",
     price: 24,
     company: "Marvel",
     info:
@@ -66,11 +61,10 @@ export const productosTienda = [
   },
   {
     id: 6,
-    title: "Marvel Logo T-Shirt Unisex",
-    img: "https://i.imgur.com/mC8Q3M5.png",
-    category: "marvel",
+    title: "Camiseta Justice League Hombre",
+    img: "img/product-6.png",
     price: 17,
-    company: "Marvel",
+    company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -79,10 +73,9 @@ export const productosTienda = [
   },
   {
     id: 7,
-    title: "Batman Black Well",
-    img: "https://i.imgur.com/wPrPZrB.pngg",
-    category: "marvel",
-    price: 30,
+    title: "Camiseta Wonder Woman Mujer",
+    img: "img/product-7.png",
+    price: 10,
     company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -92,11 +85,10 @@ export const productosTienda = [
   },
   {
     id: 8,
-    title: "Hulk Well 3D arm",
-    img: "https://i.imgur.com/fRfZNuE.jpg",
-    category: "marvel",
-    price: 2,
-    company: "Marvel",
+    title: "Camiseta Logo Wonder Woman Mujer",
+    img: "img/product-8.png",
+    price: 12,
+    company: "Dc Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -105,10 +97,9 @@ export const productosTienda = [
   },
   {
     id: 9,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/et1IKP3.png",
-    category: "marvel",
-    price: 2,
+    title: "Camiseta Logo Batman Mujer",
+    img: "img/product-9.png",
+    price: 12,
     company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -118,10 +109,9 @@ export const productosTienda = [
   },
   {
     id: 10,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/F3Fh6i9.png",
-    category: "marvel",
-    price: 2,
+    title: "Camiseta Wonder Woman Fierge Mujer",
+    img: "img/product-10.png",
+    price: 10,
     company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -131,11 +121,10 @@ export const productosTienda = [
   },
   {
     id: 11,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/hPFIf5o.png",
-    category: "marvel",
-    price: 2,
-    company: "DC Comics",
+    title: "Bowl para desayuno Marvel",
+    img: "img/product-11.png",
+    price: 24,
+    company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -144,11 +133,10 @@ export const productosTienda = [
   },
   {
     id: 12,
-    title: "https://i.imgur.com/AGhKspO.jpg",
-    img: "https://i.imgur.com/GuLjbZW.jpg",
-    category: "marvel",
-    price: 2,
-    company: "DC Comics",
+    title: "Botella Avengers by Marvel",
+    img: "img/product-12.png",
+    price: 26,
+    company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -157,10 +145,9 @@ export const productosTienda = [
   },
   {
     id: 13,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/kihJ7Px.png",
-    category: "marvel",
-    price: 2,
+    title: "Cojín logo Batman",
+    img: "img/product-13.png",
+    price: 32,
     company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -170,10 +157,9 @@ export const productosTienda = [
   },
   {
     id: 14,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/SRGVP6t.png",
-    category: "marvel",
-    price: 2,
+    title: "Jarro Cervezero Batman",
+    img: "img/product-14.png",
+    price: 30,
     company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -183,10 +169,9 @@ export const productosTienda = [
   },
   {
     id: 15,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/EdTFJBW.png",
-    category: "marvel",
-    price: 2,
+    title: "Reloj de Pared Superman",
+    img: "img/product-15.png",
+    price: 17,
     company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -196,11 +181,10 @@ export const productosTienda = [
   },
   {
     id: 16,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/avpeJno.png",
-    category: "marvel",
-    price: 2,
-    company: "DC Comics",
+    title: "Libreta Loki Marvel",
+    img: "img/product-16.png",
+    price: 5,
+    company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -209,11 +193,10 @@ export const productosTienda = [
   },
   {
     id: 17,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/OLVuHKc.png",
-    category: "marvel",
-    price: 2,
-    company: "DC Comics",
+    title: "Tabla para cortar DeadPool",
+    img: "img/product-17.png",
+    price: 7,
+    company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -222,10 +205,9 @@ export const productosTienda = [
   },
   {
     id: 18,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/oqrGyQV.png",
-    category: "marvel",
-    price: 2,
+    title: "Pocillo Dorado Wonder Woman",
+    img: "img/product-18.png",
+    price: 24,
     company: "DC Comics",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -235,11 +217,10 @@ export const productosTienda = [
   },
   {
     id: 19,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/TrYT0X0.png",
-    category: "marvel",
-    price: 2,
-    company: "DC Comics",
+    title: "Guantelete Iron-Man / Thanos",
+    img: "img/product-19.png",
+    price: 52,
+    company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -248,11 +229,10 @@ export const productosTienda = [
   },
   {
     id: 20,
-    title: "Wonder Woman Vaso Viajero",
-    img: "https://i.imgur.com/AGhKspO.jpg",
-    category: "marvel",
-    price: 2,
-    company: "DC Comics",
+    title: "Funko Joker Card",
+    img: "img/product-20.png",
+    price: 33,
+    company: "Marvel",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -263,11 +243,10 @@ export const productosTienda = [
 
 export const detailProduct = {
   id: 1,
-  title: "Batman T-Shirt Kids",
-  img: "https://i.imgur.com/FNLwyxb.png",
-  category: "marvel",
+  title: "Camiseta Logo Flash Unisex",
+  img: "img/product-1.png",
   price: 10,
-  company: "Dc Comics",
+  company: "DC Comics",
   info:
     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
   inCart: false,

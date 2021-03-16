@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../Title";
+import Title from "../Global/Title";
 import CartColumns from "./CartColumns";
 import CartList from "./CartList";
 import CartTotals from "./CartTotals";
@@ -9,14 +9,14 @@ import EmptyCart from "./EmptyCart";
 const Store = () => {
   return (
     <section>
-      <ProductConsumer className="table">
+      <ProductConsumer>
         {(value) => {
           const { cart } = value;
           if (cart.length > 0) {
             return (
               <>
                 <Title name="your" title="cart" />
-                <CartColumns className="thead-dark" />
+                <CartColumns />
                 <CartList value={value} />
                 <CartTotals value={value} history={window.history} />
               </>

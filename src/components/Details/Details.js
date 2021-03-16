@@ -1,6 +1,6 @@
 import React from "react";
-import { ProductConsumer } from "../context";
-import { ButtonContainer } from "./Button";
+import { ProductConsumer } from "../../context";
+import { ButtonContainer } from "../Global/Button";
 import { Link } from "react-router-dom";
 
 const Details = () => {
@@ -20,7 +20,7 @@ const Details = () => {
         return (
           <div className="container py-5">
             <div className="row">
-              <div className="col-10 mx-auto text-center text-slanted text-blue my-5">
+              <div className="col-10 mx-auto text-center text-slanted text-green my-5">
                 <h1>{title}</h1>
               </div>
             </div>
@@ -32,21 +32,21 @@ const Details = () => {
               <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                 <h1>{title}</h1>
                 <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                  made by : <span className="text-uppercase">{company}</span>
+                   <span className="text-uppercase">{company}</span>
                 </h4>
-                <h4 className="text-blue">
+                <h4 className="text-green">
                   <strong>
-                    price : <span>$</span>
+                    precio : <span>$</span>
                     {price}
                   </strong>
                 </h4>
                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                  some info about product :
+                  Información del producto :
                 </p>
                 <p className="text-muted lead">{info}</p>
                 <div>
                   <Link to="/">
-                    <ButtonContainer>back to products</ButtonContainer>
+                    <ButtonContainer>Volver</ButtonContainer>
                   </Link>
                   <ButtonContainer
                     cart
@@ -56,7 +56,7 @@ const Details = () => {
                       value.openModal(id);
                     }}
                   >
-                    {inCart ? "in cart" : "add to cart"}
+                    {inCart ? "Agregado" : "Agregar al carrito"}
                   </ButtonContainer>
                 </div>
               </div>

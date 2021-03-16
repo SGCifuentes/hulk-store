@@ -1,21 +1,21 @@
 import React from "react";
-import styled from "styled-components";
+import { Img, Item } from "./CartElements";
 
 const CartItem = ({ item, value }) => {
   const { id, title, img, price, total, count } = item;
   const { increment, decrement, removeItem } = value;
 
   return (
-    <div className="row my-1 text-capitalize text-center d-lg-flex justify-content-between align-items-lg-center">
+    <Item className="row text-capitalize text-center d-lg-flex justify-content-between align-items-lg-center">
       <div className="col-10 mx-auto col-lg-2">
         <Img src={img} className="img-fluid" alt={title} />
       </div>
       <div className="col-10 mx-auto col-lg-2 ">
-        <span className="d-lg-none">product :</span> {title}
+        <span className="d-lg-none">Producto :</span> {title}
       </div>
       <div className="col-10 mx-auto col-lg-2 ">
         <strong>
-          <span className="d-lg-none">price :</span> ${price}
+          <span className="d-lg-none">Precio :</span> ${price}
         </strong>
       </div>
       <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0 ">
@@ -38,15 +38,12 @@ const CartItem = ({ item, value }) => {
       </div>
 
       <div className="col-10 mx-auto col-lg-2 ">
-        <strong>item total : ${total} </strong>
+        <strong>Total del producto : ${total} </strong>
       </div>
-    </div>
+    </Item>
   );
 };
 
-const Img = styled.img`
-  width: "3rem";
-  height: "3rem";
-`;
+
 
 export default CartItem;

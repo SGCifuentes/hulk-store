@@ -15,6 +15,7 @@ const ProductProvider = ({ children }) => {
   useEffect(() => setProducts(), []);
 
   const setProducts = () => {
+    // Se agregan los productos de la API al estado products para poder trabajar con ellos en la app
     let templateProducts = [];
     productosTienda.forEach((item) => {
       const singleItem = { ...item };
@@ -28,10 +29,12 @@ const ProductProvider = ({ children }) => {
     return product;
   };
   const handleDetail = (id) => {
+    // Se valida el producto que se selecciono para ver sus detalles basado en el id de dicho producto
     const product = getItem(id);
     setdetailProduct(() => product);
   };
   const addToCart = (id) => {
+    // Se va agregando al estados los objetos que se compraron, se van almacenando en el array del estado Cart
     let tempProducts = [...products];
     const index = tempProducts.indexOf(getItem(id));
     const product = tempProducts[index];
@@ -48,11 +51,13 @@ const ProductProvider = ({ children }) => {
   }, [cart]);
 
   const openModal = (id) => {
+    // Se abre la card para volver al home o ir al carrito
     const product = getItem(id);
     setmodalProduct(() => product);
     setmodalOpen(() => true);
   };
   const closeModal = () => {
+    // Se cierra la card de confirmacion de compra
     setmodalOpen(() => false);
   };
   const increment = (id) => {
@@ -85,6 +90,7 @@ const ProductProvider = ({ children }) => {
     }
   };
   const getTotals = () => {
+    // Se obtiene los precios base, inpuestos y el precio total
     let subTotal = 0;
     cart.map((item) => (subTotal += item.total));
     const tempTax = subTotal * 0.1;

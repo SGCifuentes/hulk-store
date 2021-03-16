@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ButtonContainer } from "../Global/Button";
 
 const CartTotals = ({ value }) => {
   const { cartSubTotal, cartTax, cartTotal, cart, clearCart } = value;
@@ -17,21 +18,24 @@ const CartTotals = ({ value }) => {
                   type="button"
                   onClick={() => clearCart()}
                 >
-                  clear cart
+                  Limpiar carrito
                 </button>
               </Link>
               <h5>
-                <span className="text-title"> subtotal :</span>{" "}
+                <span className="text-title"> Subtotal :</span>{" "}
                 <strong>$ {cartSubTotal} </strong>
               </h5>
               <h5>
-                <span className="text-title"> tax :</span>{" "}
+                <span className="text-title"> Impuestos :</span>{" "}
                 <strong>$ {cartTax} </strong>
               </h5>
               <h5>
-                <span className="text-title"> total :</span>{" "}
+                <span className="text-title"> Total :</span>{" "}
                 <strong>$ {cartTotal} </strong>
               </h5>
+              <Link to="/pay">
+                <ButtonContainer>Completar pago</ButtonContainer>
+              </Link>
             </div>
           </div>
         </div>
