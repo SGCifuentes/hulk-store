@@ -15,7 +15,7 @@ const Store = () => {
           if (cart.length > 0) {
             return (
               <>
-                <Title name="your" title="cart" />
+                <Title name="Tu" title="Carrito" />
                 <CartColumns />
                 <CartList value={value} />
                 <CartTotals value={value} history={window.history} />
